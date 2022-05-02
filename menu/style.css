@@ -1,0 +1,37 @@
+body, html {
+    background-color: black;
+
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+    justify-content: center;
+}
+
+.start {
+    padding: 1em;
+    margin: 0 auto;
+    margin-top: 10em;
+
+    border-radius: 10px;
+
+    width: 10em;
+    
+    text-decoration: none;
+    color: black;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: white;
+}

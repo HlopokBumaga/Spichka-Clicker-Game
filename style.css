@@ -1,0 +1,31 @@
+body, html {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: black;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes spanim {
+    0% {
+        filter: brightness(0%);
+    }
+
+    50% {
+        filter: brightness(50%);
+    }
+
+    100% {
+        filter: brightness(100%);
+    }
+}
+
+img {
+    width: calc(100% / 1.5);
+    animation: spanim 4s;
+}

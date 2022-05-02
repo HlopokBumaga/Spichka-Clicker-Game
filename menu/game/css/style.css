@@ -1,0 +1,91 @@
+body, html {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow: hidden;
+}
+
+@keyframes spani {
+    0% {
+        width: calc(100% / 1);
+    }
+
+    50% {
+        width: calc(100% / 1.02);
+    }
+
+    100% {
+        width: calc(100% / 1);
+    }
+}
+
+@keyframes spac {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        margin-top: -1em;
+    }
+
+    100% {
+        opacity: 0;
+        margin-top: 1em;
+    }
+}
+
+.spac {
+    animation: spac 1s;
+}
+
+.sp__img {
+    width: 15em;
+    max-width: 15em;
+}
+
+.count {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+    position: absolute;
+
+    margin-top: 3em;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+    position: absolute;
+}
+
+.sp {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sp__count {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    opacity: 0;
+}
+
+.sp__sim {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+@media screen and (min-width: 500px) {
+    .sp__img {
+        width: 32em;
+        max-width: 32em;
+    }
+}
