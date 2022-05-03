@@ -1,0 +1,21 @@
+body, html {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+    justify-content: center;
+}
+
+.back {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+    justify-content: center;
+
+    text-decoration: none;
+}
